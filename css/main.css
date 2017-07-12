@@ -51,5 +51,29 @@ body {
 }
 header {
     min-height: 644px;
-    background: url('/template_bootstrap/img/top-background.jpg') repeat-x center;
+    background: url('/img/top-background.jpg') repeat-x center;
+    position: relative;
+}
+
+.top_line {
+    min-height: 98px;
+    background-color: #000;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(225, 225, 225, .3) 0 0 0 1px;
+}
+
+.top_addr {
+    padding-left: 60px;
+    background: url("../img/top-mark.png") no-repeat center left;
+
+}
+
+.top_addr strong {
+    color: #d12f22;
+    display: block;
+    font-weight: normal;
+    text-transform: uppercase;
 }
