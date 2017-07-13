@@ -1,3 +1,4 @@
+
 *::-webkit-input-placeholder {
     color: #666;
     opacity: 1;
@@ -52,23 +53,38 @@ body {
 header {
     min-height: 644px;
     background: url('/img/top-background.jpg') repeat-x center;
-    position: relative;
+    width: 1680px;
+    height: 643px;
+    font-family: BebasBold, serif;
+}
+
+header a {
+    color: #fff;
 }
 
 .top_line {
     min-height: 98px;
     background-color: #000;
     opacity: .6;
-    position: absolute;
     top: 0;
     width: 100%;
     box-shadow: rgba(225, 225, 225, .3) 0 0 0 1px;
+    padding: 22px 0;
+}
+
+.top_line a {
+    font-size: 21px;
+    border-bottom: #fff dashed 1px;
+}
+
+.top_line a:hover {
+    border-bottom: dashed transparent 1px;
 }
 
 .top_addr {
-    padding-left: 60px;
-    background: url("../img/top-mark.png") no-repeat center left;
-
+    padding-left: 50px;
+    background: url("../img/top-mark.png") no-repeat left;
+    font-family: "BebasRegular", serif;
 }
 
 .top_addr strong {
@@ -76,4 +92,40 @@ header {
     display: block;
     font-weight: normal;
     text-transform: uppercase;
+    font-size: 32px;
 }
+
+.top_line .logo {
+    border-bottom: none;
+    position: absolute;
+    margin-top: -18px;
+}
+
+.top_line .logo:hover {
+    border-bottom: none;
+}
+
+.logo_wrap {
+    margin: auto;
+    position: relative;
+    width: 240px;
+}
+
+.ta_right {
+    background-image: none;
+    padding-left: 0;
+    text-align: right;
+}
+
+.ta_right span {
+    color: #fff;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 58px;
+    font-size: 40px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.55);
+}
+
